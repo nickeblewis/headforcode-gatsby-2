@@ -46,13 +46,7 @@ class ServicesSection extends Component {
     return (
       <Wrapper>
         <Container>
-          {services.map(({ node }, i) => (            
-            <IntroductionItem key={i}
-                picture={node.productImage.handle}
-                title={node.productTitle}
-                subTitle={node.productDescription}
-            />
-          ))}
+         
         </Container>
       </Wrapper>
     );
