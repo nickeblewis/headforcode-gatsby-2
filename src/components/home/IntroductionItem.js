@@ -44,7 +44,7 @@ class IntroductionItem extends Component {
       <Wrapper>
         <Title>{title}</Title>
         <img
-          src={`https://media.graphcms.com/resize=w:512,h:512,a:top,fit:crop/${picture}`}
+          src={`https://media.graphcms.com/resize=w:512,h:512,a:top,fit:scale/${picture}`}
           alt={title}
           title={title}
           width="256"
