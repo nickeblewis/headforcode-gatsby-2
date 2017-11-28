@@ -7,7 +7,7 @@ import baseStyles from '../css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-import { link, meta } from './head';
+import { link, meta, script } from './head';
 
 const Wrapper = styled.div`
   margin: 0 auto;

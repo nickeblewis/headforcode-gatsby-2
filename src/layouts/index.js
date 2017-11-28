@@ -6,7 +6,7 @@ import baseStyles from '../css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-import { link, meta } from './head';
+import { link, meta, script } from './head';
 
 const Wrapper = styled.div`
   margin: 0 auto;
@@ -37,6 +37,7 @@ export default ({ children, data, location }) => {
           ...meta,
         ]}
         link={link}
+        script={script}
       >
         <html lang="en" dir="ltr" />
       </Helmet>
@@ -45,7 +46,12 @@ export default ({ children, data, location }) => {
         {children()}
       </Container>
       <Footer />
+      <link id="snipcart-theme" type="text/css" href="https://cdn.snipcart.com/themes/base/snipcart.css" rel="stylesheet" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+      <script type="text/javascript" id="snipcart" data-api-key="{SNIPCART API KEY}"></script>
+
     </Wrapper>
+    
   );
 };
 

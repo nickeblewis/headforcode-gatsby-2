@@ -183,7 +183,7 @@ const renderAuthor = author => {
 
 export default ({ data, location }) => {
   const post = data.markdownRemark;
-  const { title, author, date } = post.frontmatter;
+  const { title, author, date, id, price, image, description, path } = post.frontmatter;
   const { pathname } = location;
   return (
     <Main id="content">
@@ -200,6 +200,17 @@ export default ({ data, location }) => {
             )}
           </TitleSection>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
+          <a 
+  href='#' 
+  className='snipcart-add-item'
+  data-item-id={post.id}
+  data-item-price={post.price}
+  data-item-image={post.image}
+  data-item-name={post.title}
+  data-item-description={post.description}
+  data-item-url={"http://snipcart-gatsby.netlify.com" + post.path}>
+  Buy
+</a>
           <EditThisPage pathname={post.fields.path} />
         </Left>
         <Right>

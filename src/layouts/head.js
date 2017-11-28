@@ -1,5 +1,11 @@
 export const link = [
   {
+    id: 'snipcart-theme',
+    rel: 'stylesheet',
+    href: 'https://cdn.snipcart.com/themes/base/snipcart.css',
+    type: 'text/css'
+  },
+  {
     rel: 'icon',
     sizes: '192x192',
     href: `${__PATH_PREFIX__}/favicon-192x192.png`,
@@ -39,4 +45,15 @@ export const meta = [
   },
   { property: 'og:site_name', content: 'Bottender' },
   { property: 'og:locale', content: 'en_US' },
+];
+
+export const script = [
+  {
+    src: 'https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js',
+  },
+  {
+    type: 'text/javascript',
+    id: 'snipcart',
+    dataApiKey: 'NzIzOTg5MjktMzA3NC00ODk0LWE5N2ItNTNjMDA1YzI3OWQ3NjM2MzY3MDEyNTg3MjIyMTA3'
+  }
 ];
