@@ -1,7 +1,7 @@
-- title: ' '
+- title: Gatsby
   items:
-    - id: docs/GettingStarted
-      title: Getting Started
+    - id: docs/Platforms-Messenger
+      title: How we use Gatsby
 - title: Platforms
   items:
     - id: docs/Platforms-Messenger
