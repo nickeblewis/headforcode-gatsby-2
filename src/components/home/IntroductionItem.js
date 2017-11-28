@@ -43,12 +43,14 @@ class IntroductionItem extends Component {
     return (
       <Wrapper>
         <Title>{title}</Title>
-        <img
-          src={`https://media.graphcms.com/resize=w:512,h:512,a:top,fit:scale/${picture}`}
-          alt={title}
-          title={title}
-          width="256"
-        />
+        { picture && 
+          <img
+            src={`https://media.graphcms.com/resize=w:512,h:512,a:top,fit:scale/${picture}`}
+            alt={title}
+            title={title}
+            width="256"
+          />
+        }
         <SubTitle>{subTitle}</SubTitle>
       </Wrapper>
     );
