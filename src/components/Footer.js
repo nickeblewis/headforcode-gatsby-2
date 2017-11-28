@@ -72,13 +72,13 @@ class Footer extends Component {
       <Wrapper id="footer" role="contentinfo">
         <Container>
           <Copyright>
-            © 2017 - PRESENT YOCTOL INFO INC. ALL RIGHTS RESERVED
+            © 2017 - HeadForCode
           </Copyright>
           <MobileCopyright>
-            © 2017 - PRESENT YOCTOL INFO INC. <br />ALL RIGHTS RESERVED
+            © 2017 - HeadForCode
           </MobileCopyright>
-          <Link href="https://github.com/Yoctol/bottender" target="_blank">
-            <GitHubLogo src={github} alt="Bottender github link" />
+          <Link href="https://github.com/nickeblewis" target="_blank">
+            <GitHubLogo src={github} alt="Headforcode github link" />
           </Link>
         </Container>
       </Wrapper>
