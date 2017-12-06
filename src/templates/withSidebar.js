@@ -200,7 +200,7 @@ export default ({ data, location }) => {
             )}
           </TitleSection>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
-          <a 
+          {/* <a 
   href='#' 
   className='snipcart-add-item'
   data-item-id={post.id}
@@ -210,7 +210,7 @@ export default ({ data, location }) => {
   data-item-description={post.description}
   data-item-url={"http://snipcart-gatsby.netlify.com" + post.path}>
   Buy
-</a>
+</a> */}
           <EditThisPage pathname={post.fields.path} />
         </Left>
         <Right>
