@@ -31,4 +31,3 @@ class EditThisPage extends Component {
 }
 
 export default EditThisPage;
-https://github.com/nickeblewis/headforcode-gatsby-2/blob/master/content/docs/Guides-Deployment.md
