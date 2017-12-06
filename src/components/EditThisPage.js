@@ -21,7 +21,7 @@ const Btn = styled.a`
 class EditThisPage extends Component {
   render() {
     const { pathname } = this.props;
-    const href = `https://github.com/bottenderjs/bottenderjs.github.io/blob/source/content/${pathname}`;
+    const href = `https://github.com/nickeblewis/headforcode-gatsby-2/blob/master/content/${pathname}`;
     return (
       <Wrapper>
         <Btn href={href}>Edit This Page</Btn>
@@ -31,3 +31,4 @@ class EditThisPage extends Component {
 }
 
 export default EditThisPage;
+https://github.com/nickeblewis/headforcode-gatsby-2/blob/master/content/docs/Guides-Deployment.md
