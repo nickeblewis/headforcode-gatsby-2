@@ -1,8 +1,9 @@
 backend:
-  name: github
-  repo: nickeblewis/headforcode-gatsby-2 # Path to your Github repository
-  branch: master # Branch to update
-
+  name: git-gateway
+  accept_roles:
+    - admin
+    - editor
+    
 publish_mode: editorial_workflow
 media_folder: "images/uploads"
 public_folder: "/public/static"
