@@ -4,6 +4,7 @@ import Link from 'gatsby-link';
 import styled from 'styled-components';
 
 import LandscapeSection from '../components/home/LandscapeSection';
+// import Hero from '../components/Hero';
 import IntroductionSection from '../components/home/IntroductionSection';
 import ServicesSection from '../components/home/ServicesSection';
 import CTASection from '../components/home/CTASection';

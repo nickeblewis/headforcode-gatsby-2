@@ -76,7 +76,7 @@ class LandscapeSection extends Component {
         {/* <img src={logo} alt="logo" /> */}
         <Title>HeadForCode</Title>
         <Slogan>
-          DEVELOP YOUR WAY,<br />ROCK YOUR CODE
+          We Teach. We Consult. We Deliver Solutions.
         </Slogan>
         <GetStartedLink to="/docs/GettingStarted">Get Started!</GetStartedLink>
       </Wrapper>
