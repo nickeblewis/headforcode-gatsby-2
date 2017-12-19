@@ -46,13 +46,13 @@ class TitleSection extends Component {
           <Row>
             <IntroductionItem
               bold={true}
-              title="DaaS"
-              subTitle="We have coined (possibly) a new term 'Developer as a Service' or DaaS for short. What this means is you pay us for the time we spend working on your solution and we serve numerous clients."
+              title="Teaching"
+              subTitle="We are learning all of the time and we love to share our experiences with the development community. We plan to release a mixture of FREE and premium courses in the months to come."
             />
             <IntroductionItem
               bold={true}
-              title="Services"
-              subTitle="Our services revolve around a few key areas, such as API based CMS systems and other integrations between the tools that you use for your business. We want to help you make your processes more efficient."
+              title="Consultancy"
+              subTitle="We are primarily a consultancy business, we love to solve problems for other businesses through the use of smart technology. You can find out more through this site."
             />
           </Row>
         </Container>
