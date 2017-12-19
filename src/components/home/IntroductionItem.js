@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import Link from 'react-router';
+import Link from 'gatsby-link';
 
 import media from '../../css/media';
 
@@ -61,7 +61,7 @@ padding-right:20px;
 `;
 class IntroductionItem extends Component {
   render() {
-    const { title, subTitle, picture, bold } = this.props;
+    const { title, subTitle, picture, bold, linkTo } = this.props;
     return (
       <Wrapper>
         <Title>{title}</Title>
@@ -74,7 +74,13 @@ class IntroductionItem extends Component {
           /> */
         }
         <SubTitle bold={bold}>{subTitle}</SubTitle>
-        <ReadMore>Read more...</ReadMore>
+
+        {linkTo &&
+          <ReadMore>
+            <Link to={linkTo}>Read more...</Link>
+          </ReadMore>
+        }
+
       </Wrapper>
     );
   }
