@@ -30,10 +30,10 @@ export const meta = [
     property: 'og:type',
     content: 'website',
   },
-  { property: 'og:url', content: 'https://bottender.js.org/' },
+  { property: 'og:url', content: 'http://headforcode.com/' },
   {
     property: 'og:title',
-    content: 'Bottender | Make Bots in Your Way, Fast and Flexibly',
+    content: 'HeadForCode | We Teach. We Consult. We Deliver Solutions',
   },
   {
     property: 'og:image',
@@ -41,10 +41,10 @@ export const meta = [
   },
   {
     property: 'og:description',
-    content: 'Bottender | Make Bots in Your Way, Fast and Flexibly',
+    content: 'HeadForCode | We Teach. We Consult. We Deliver Solutions',
   },
-  { property: 'og:site_name', content: 'Bottender' },
-  { property: 'og:locale', content: 'en_US' },
+  { property: 'og:site_name', content: 'HeadForCode' },
+  { property: 'og:locale', content: 'en_GB' },
 ];
 
 export const script = [
