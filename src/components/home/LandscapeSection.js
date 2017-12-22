@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 // import logo from '../../assets/logo.svg';
 import landscape from '../../assets/business-header2-big.jpg';
-import landscapeMobile from '../../assets/business-header2-small.jpg';
+import landscapeMobile from '../../assets/iStock-540738430.jpg';
 import media from '../../css/media';
 
 import GetStartedLink from './GetStartedLink';
