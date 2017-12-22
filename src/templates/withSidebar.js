@@ -10,6 +10,9 @@ import EditThisPage from '../components/EditThisPage';
 import Sidebar from '../components/Sidebar';
 import authors from '../../content/authors.yaml';
 
+import Disqus from '../components/Disqus';
+import ReactDisqus from 'react-disqus'
+
 const globalStyle = `
   h1 {
     margin-top: 1em;
@@ -200,8 +203,8 @@ export default ({ data, location }) => {
             )}
           </TitleSection>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
-          {/* <a 
-  href='#' 
+          {/* <a
+  href='#'
   className='snipcart-add-item'
   data-item-id={post.id}
   data-item-price={post.price}
@@ -212,6 +215,7 @@ export default ({ data, location }) => {
   Buy
 </a> */}
           <EditThisPage pathname={post.fields.path} />
+        <ReactDisqus shortname="headforcode" />
         </Left>
         <Right>
           <Sidebar pathname={pathname} />
