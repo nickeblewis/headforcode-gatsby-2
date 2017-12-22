@@ -8257,11 +8257,9 @@ react-deep-force-update@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/react-deep-force-update/-/react-deep-force-update-2.1.1.tgz#8ea4263cd6455a050b37445b3f08fd839d86e909"
 
-react-disqus@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/react-disqus/-/react-disqus-1.0.2.tgz#6e148e9d7ba15c91b51b678f1c6fe2838bc0ee67"
-  dependencies:
-    react "^15.0.1"
+react-disqus-comments@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/react-disqus-comments/-/react-disqus-comments-1.1.1.tgz#439c47ed1746545a49c3224bd4bb32204f67cc29"
 
 react-dom@^15.6.0:
   version "15.6.2"
@@ -8346,7 +8344,7 @@ react-typography@^0.16.1:
   version "0.16.5"
   resolved "https://registry.yarnpkg.com/react-typography/-/react-typography-0.16.5.tgz#86e539430e0efb3a326c9de20d9e3a32662a2a6b"
 
-react@^15.0.1, react@^15.6.0:
+react@^15.6.0:
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/react/-/react-15.6.2.tgz#dba0434ab439cfe82f108f0f511663908179aa72"
   dependencies:

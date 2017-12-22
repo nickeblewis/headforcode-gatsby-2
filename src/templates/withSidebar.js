@@ -9,9 +9,7 @@ import media from '../css/media';
 import EditThisPage from '../components/EditThisPage';
 import Sidebar from '../components/Sidebar';
 import authors from '../../content/authors.yaml';
-
-import Disqus from '../components/Disqus';
-import ReactDisqus from 'react-disqus'
+import Disqus from "../components/Disqus/Disqus";
 
 const globalStyle = `
   h1 {
@@ -188,6 +186,8 @@ export default ({ data, location }) => {
   const post = data.markdownRemark;
   const { title, author, date, id, price, image, description, path } = post.frontmatter;
   const { pathname } = location;
+  const disqusShortname = 'headforcode'
+
   return (
     <Main id="content">
       <Helmet title={`${title} | ${data.site.siteMetadata.title}`} />
@@ -215,7 +215,7 @@ export default ({ data, location }) => {
   Buy
 </a> */}
           <EditThisPage pathname={post.fields.path} />
-        <ReactDisqus shortname="headforcode" />
+          <Disqus postNode={post} />
         </Left>
         <Right>
           <Sidebar pathname={pathname} />
