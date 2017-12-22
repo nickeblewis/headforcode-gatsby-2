@@ -6,6 +6,13 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-next',
     {
+    resolve: `gatsby-source-stripe`,
+    options: {
+      objects: ['customers', 'products'],
+      secretKey: 'sk_test_mR7hGVMgsSuWQbCh5h6deXny',
+    }
+  },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'src',

@@ -64,6 +64,9 @@ exports.createPages = async ({ graphql, boundActionCreators }) => {
             fields {
               slug
             }
+            frontmatter {
+              layout
+            }
           }
         }
       }
@@ -77,14 +80,25 @@ exports.createPages = async ({ graphql, boundActionCreators }) => {
 
   allMarkdown.data.allMarkdownRemark.edges.map(({ node }) => {
     const { slug } = node.fields;
+    let layout = node.frontmatter.layout;
+
     const slugWithoutSlash = slug.replace(/\/$/, ``);
+
+    if (layout === null || layout == 'post') {
+      layout = 'sidebar-layout'
+    }
+    else {
+      layout = 'sidebar-layout-with-products'
+    }
+
     createPage({
       path: slugWithoutSlash,
       component: path.resolve('./src/templates/withSidebar.js'),
-      layout: 'sidebar-layout',
+      layout: layout,
       context: {
         // Data passed to context is available in page queries as GraphQL variables.
         slug,
+        layout,
       },
     });
     // Only redirect on doc pages to ensure the relative paths working
@@ -108,6 +122,9 @@ exports.createPages = async ({ graphql, boundActionCreators }) => {
           node {
             fields {
               slug
+            }
+            frontmatter {
+              layout
             }
           }
         }
