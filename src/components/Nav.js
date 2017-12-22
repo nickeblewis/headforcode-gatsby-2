@@ -25,12 +25,12 @@ class Nav extends Component {
     return (
       <Container role="navigation">
         <DesktopMenu>
-          <NavItem
+          { /* }<NavItem
             title="how"
             to="/docs/GettingStarted"
             hasHover
             pathname={pathname}
-          />
+          /> */ }
           <NavItem title="blog" to="/blog" hasHover pathname={pathname} />
         </DesktopMenu>
         <MobileMenu {...this.props} />
