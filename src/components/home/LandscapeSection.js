@@ -78,7 +78,7 @@ class LandscapeSection extends Component {
         <Slogan>
           We Teach. We Consult. We Deliver Solutions.
         </Slogan>
-        <GetStartedLink to="/docs/GettingStarted">Get Started!</GetStartedLink>
+        { /* }<GetStartedLink to="/docs/GettingStarted">Get Started!</GetStartedLink> */ }
       </Wrapper>
     );
   }
