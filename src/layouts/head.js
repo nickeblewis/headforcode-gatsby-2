@@ -24,7 +24,7 @@ export const link = [
 export const meta = [
   {
     name: 'apple-mobile-web-app-title',
-    content: 'Bottender',
+    content: 'HeadForCode',
   },
   {
     property: 'og:type',
