@@ -52,7 +52,17 @@ class TitleSection extends Component {
             <IntroductionItem
               bold={true}
               title="Consultancy"
-              subTitle="We are primarily a consultancy business, we love to solve problems for other businesses through the use of smart technology. You can find out more through this site."
+              subTitle="We love to solve problems for other businesses through the use of smart technology. We are advocates for the mobile web and ensuring that we all have quick and easy access to information wherever and whenever we need it."
+            />
+            <IntroductionItem
+              bold={true}
+              title="Solutions"
+              subTitle="We are not fans of re-inventing the wheel completely each time we start a new project. So during quieter periods we keep busy. We are gradually building our own tools and web components for use in future client projects."
+            />
+            <IntroductionItem
+              bold={true}
+              title="Find out more..."
+              subTitle="We will be investing more time in our website this year to make sure it's packed with interesting information on coding, building digital businesses and other inspirational material. What's more, we are going to be focussing on the mobile experience, so that headforcode.com becomes your pocket guide to app development!"
             />
           </Row>
         </Container>

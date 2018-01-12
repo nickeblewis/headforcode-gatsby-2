@@ -25,7 +25,7 @@ class IndexPage extends Component {
       <Wrapper>
         <LandscapeSection />
         <IntroductionSection />
-        <ServicesSection services={products} />
+        {/* <ServicesSection services={products} /> */}
         {/* <CTASection /> */}
       </Wrapper>
     );
