@@ -1,4 +1,11 @@
 import React, { Component } from 'react';
+import { connect } from "react-redux";
+import {
+  updatePostsData,
+  setNavigatorIsAside,
+  setNavigatorInTransition
+} from "../state/store";
+
 // import StarRatingComponent from 'react-star-rating-component'
 import Link from 'gatsby-link';
 import styled from 'styled-components';
@@ -16,6 +23,24 @@ const Wrapper = styled.div`
 `;
 
 class IndexPage extends Component {
+  // componentWillMount() {
+  //   let isWideScreen =
+  //     typeof window !== "undefined"
+  //       ? document.documentElement.clientWidth > 776
+  //       : false;
+
+  //   const posts = this.props.data.allMarkdownRemark.edges;
+  //   this.props.updatePostsData(posts);
+  //   this.props.setNavigatorIsAside(false);
+  //   if (typeof window !== `undefined`) {
+  //     this.props.setNavigatorInTransition(true);
+
+  //     setTimeout(() => {
+  //       this.props.setNavigatorInTransition(false);
+  //     }, isWideScreen ? 500 : 0);
+  //   }
+  // }
+
   render() {
     const posts = this.props.data.posts.edges;
     // const towns = this.props.data.towns.edges
@@ -31,6 +56,23 @@ class IndexPage extends Component {
     );
   }
 }
+
+const mapStateToProps = (state, ownProps) => {
+  return {
+    navigatorIsAside: state.navigator.isAside,
+    navigatorIsActive: state.posts.length
+  };
+};
+
+const mapDispatchToProps = dispatch => {
+  return {
+    updatePostsData: data => dispatch(updatePostsData(data)),
+    setNavigatorIsAside: val => dispatch(setNavigatorIsAside(val)),
+    setNavigatorInTransition: val => dispatch(setNavigatorInTransition(val))
+  };
+};
+
+// export default connect(mapStateToProps, mapDispatchToProps)(IndexPage);
 
 export default IndexPage;
 

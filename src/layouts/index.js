@@ -1,10 +1,12 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, { ThemeProvider } from 'styled-components';
 import Helmet from 'react-helmet';
 
 import baseStyles from '../css';
+import theme from "../styles/theme";
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import BottomBarContainer from "../components/BottomBar/BottomBarContainer";
 
 import { link, meta, script } from './head';
 
@@ -25,6 +27,7 @@ export default ({ children, data, location }) => {
   const { pathname } = location;
 
   return (
+    <ThemeProvider theme={theme}>
     <Wrapper>
       <Helmet
         title={title}
@@ -45,11 +48,13 @@ export default ({ children, data, location }) => {
         {children()}
       </Container>
       <Footer />
+      <BottomBarContainer />
       <link id="snipcart-theme" type="text/css" href="https://cdn.snipcart.com/themes/base/snipcart.css" rel="stylesheet" />
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
       <script type="text/javascript" id="snipcart" data-api-key="{SNIPCART API KEY}"></script>
 
     </Wrapper>
+    </ThemeProvider>
 
   );
 };
