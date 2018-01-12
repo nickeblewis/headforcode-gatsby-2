@@ -21,7 +21,7 @@ const Wrapper = styled.section`
   background-size: contain;
 
   @media (${media.tablet}) {
-    height: 155vw;
+    height: 138vw;
     background-image: url(${landscapeMobile});
   }
 `;
