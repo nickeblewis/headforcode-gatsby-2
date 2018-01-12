@@ -23,6 +23,7 @@ const Wrapper = styled.section`
   @media (${media.tablet}) {
     height: 138vw;
     background-image: url(${landscapeMobile});
+    
   }
 `;
 
@@ -44,6 +45,7 @@ const Title = styled.h1`
 
   @media (${media.tablet}) {
     font-size: 12vw;
+    background: black;
   }
 `;
 
@@ -66,6 +68,7 @@ const Slogan = styled.h2`
 
   @media (${media.tablet}) {
     font-size: 3vw;
+    background: black;
   }
 `;
 
@@ -76,7 +79,7 @@ class LandscapeSection extends Component {
         {/* <img src={logo} alt="logo" /> */}
         <Title>HeadForCode</Title>
         <Slogan>
-          We Teach. We Consult. We Deliver Solutions.
+          We Teach. We Consult. We Solve.
         </Slogan>
         { /* }<GetStartedLink to="/docs/GettingStarted">Get Started!</GetStartedLink> */ }
       </Wrapper>
