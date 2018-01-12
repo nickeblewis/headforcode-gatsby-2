@@ -10,6 +10,10 @@ justify-content: center;
 background: #a21010;
 opacity: 1;
 transition: opacity 0.5s;
+
+// @media (${media.phone}) {
+//   height: 500px;
+// }
 `;
 
 const Product = styled.div`
@@ -50,6 +54,10 @@ const TopTitle = styled.h2`
   font-size: 37px;
   font-weight: bold;
   letter-spacing: -1px;
+
+  @media (${media.tablet}) {
+   font-size: 24px;
+  }
 `;
 
 const Title = styled.h2`
@@ -57,12 +65,21 @@ const Title = styled.h2`
   font-size: 37px;
   font-weight: bold;
   letter-spacing: -1px;
+
+  @media (${media.tablet}) {
+    font-size: 22px;
+   }
 `;
 
 const SubTitle = styled.p`
   color: #f2f2f2;
   font-size: 20px;
   line-height: 1.6;
+
+  @media (${media.tablet}) {
+    font-size: 16px;
+   }
+
 `;
 
 class StripeProductList extends Component {
@@ -72,22 +89,22 @@ class StripeProductList extends Component {
 
     return (
       <Wrapper>
-      <Container>
-        <Row>
-          <TopTitle>The following products have been retrieved from our Stripe account!</TopTitle>
-        </Row>
-        <Row>
-        {products.map(({ node }, i) => (
-          <Product key={i}>
-            <Title>
-              {node.name}
-            </Title>
-            <SubTitle>
-              {node.description}
-            </SubTitle>
-            </Product>
-        ))}
-        </Row>
+        <Container>
+          <Row>
+            <TopTitle>The following products have been retrieved from our Stripe account!</TopTitle>
+          </Row>
+          <Row>
+            {products.map(({ node }, i) => (
+              <Product key={i}>
+                <Title>
+                  {node.name}
+                </Title>
+                <SubTitle>
+                  {node.description}
+                </SubTitle>
+              </Product>
+            ))}
+          </Row>
         </Container>
       </Wrapper>
     );
