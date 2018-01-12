@@ -33,7 +33,7 @@ export const meta = [
   { property: 'og:url', content: 'http://headforcode.com/' },
   {
     property: 'og:title',
-    content: 'HeadForCode | We Teach. We Consult. We Deliver Solutions',
+    content: 'HeadForCode | We Teach. We Consult. We Solve.',
   },
   {
     property: 'og:image',
@@ -41,7 +41,7 @@ export const meta = [
   },
   {
     property: 'og:description',
-    content: 'HeadForCode | We Teach. We Consult. We Deliver Solutions',
+    content: 'HeadForCode | We Teach. We Consult. We Solve.',
   },
   { property: 'og:site_name', content: 'HeadForCode' },
   { property: 'og:locale', content: 'en_GB' },
