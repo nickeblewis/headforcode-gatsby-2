@@ -91,33 +91,33 @@ class MobileMenu extends Component {
         />
         <Menu isOpen={isOpen} right styles={menuStyle} noOverlay>
           <NavItemWrapper>
-            <NavItem
+            {/* <NavItem
               title="docs"
               to="/docs/GettingStarted"
               onClick={this.toggleMenu}
               hasHover={false}
               pathname={pathname}
-            />
+            /> */}
             <NavItem
               title="blog"
               to="/blog"
               hasHover={false}
               pathname={pathname}
             />
-            <NavItem
+            {/* <NavItem
               title="examples"
               to="https://github.com/Yoctol/bottender/tree/master/examples"
               hasHover={false}
               pathname={pathname}
-            />
-            <NavItem
+            /> */}
+            {/* <NavItem
               title="github"
               to="https://github.com/Yoctol/bottender"
               hasHover={false}
               pathname={pathname}
-            />
+            /> */}
           </NavItemWrapper>
-          <Sidebar {...this.props} toggleMenu={this.toggleMenu} />
+          {/* <Sidebar {...this.props} toggleMenu={this.toggleMenu} /> */}
         </Menu>
       </Container>
     );
