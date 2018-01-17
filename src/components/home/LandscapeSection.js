@@ -10,7 +10,7 @@ import GetStartedLink from './GetStartedLink';
 
 const Wrapper = styled.section`
   display: flex;
-  height: 40vw;
+  height: 36vw;
   flex-direction: column;
   justify-content: center;
   align-items: center;
