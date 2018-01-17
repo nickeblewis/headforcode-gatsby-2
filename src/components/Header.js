@@ -42,9 +42,9 @@ class Header extends Component {
     return (
       <Wrapper role="banner">
         <Container>
-          <LogoLink href={`${__PATH_PREFIX__}/`}>
+          {/* <LogoLink href={`${__PATH_PREFIX__}/`}>
             <Logo src={logo} alt={this.props.title} />
-          </LogoLink>
+          </LogoLink> */}
           <Nav pathname={this.props.pathname} />
         </Container>
       </Wrapper>

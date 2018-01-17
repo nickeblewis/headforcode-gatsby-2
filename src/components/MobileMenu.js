@@ -104,6 +104,12 @@ class MobileMenu extends Component {
               hasHover={false}
               pathname={pathname}
             />
+            <NavItem
+              title="contact"
+              to="/contact"
+              hasHover={false}
+              pathname={pathname}
+            />
             {/* <NavItem
               title="examples"
               to="https://github.com/Yoctol/bottender/tree/master/examples"

@@ -10,11 +10,10 @@ import {
 import Link from 'gatsby-link';
 import styled from 'styled-components';
 
-import LandscapeSection from '../components/home/LandscapeSection';
+import HeroSection from '../components/contact/HeroSection';
 // import Hero from '../components/Hero';
-import IntroductionSection from '../components/home/IntroductionSection';
-import ServicesSection from '../components/home/ServicesSection';
-import CTASection from '../components/home/CTASection';
+import AddressSection from '../components/contact/AddressSection';
+import MapSection from '../components/contact/MapSection';
 
 const Wrapper = styled.div`
   display: flex;
@@ -22,24 +21,7 @@ const Wrapper = styled.div`
   flex-direction: column;
 `;
 
-class IndexPage extends Component {
-  // componentWillMount() {
-  //   let isWideScreen =
-  //     typeof window !== "undefined"
-  //       ? document.documentElement.clientWidth > 776
-  //       : false;
-
-  //   const posts = this.props.data.allMarkdownRemark.edges;
-  //   this.props.updatePostsData(posts);
-  //   this.props.setNavigatorIsAside(false);
-  //   if (typeof window !== `undefined`) {
-  //     this.props.setNavigatorInTransition(true);
-
-  //     setTimeout(() => {
-  //       this.props.setNavigatorInTransition(false);
-  //     }, isWideScreen ? 500 : 0);
-  //   }
-  // }
+class ContactPage extends Component {
 
   render() {
     const posts = this.props.data.posts.edges;
@@ -48,10 +30,11 @@ class IndexPage extends Component {
 
     return (
       <Wrapper>
-        <LandscapeSection />
-        <IntroductionSection />
+        <HeroSection />
+        {/* <IntroductionSection /> */}
+        <AddressSection />
+        <MapSection />
         {/* <ServicesSection services={products} /> */}
-        {/* <CTASection /> */}
       </Wrapper>
     );
   }
@@ -72,12 +55,12 @@ const mapDispatchToProps = dispatch => {
   };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(IndexPage);
+// export default connect(mapStateToProps, mapDispatchToProps)(ContactPage);
 
-// export default IndexPage;
+export default ContactPage;
 
 export const pageQuery = graphql`
-  query getAllLocationsEvents {
+  query getContact {
     posts: allBlogPosts {
       edges {
         node {
