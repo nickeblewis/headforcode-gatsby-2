@@ -99,6 +99,12 @@ class MobileMenu extends Component {
               pathname={pathname}
             /> */}
             <NavItem
+              title="home"
+              to="/"
+              hasHover={false}
+              pathname={pathname}
+            />
+            <NavItem
               title="blog"
               to="/blog"
               hasHover={false}
