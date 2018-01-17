@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { connect } from "react-redux";
-import {
-  updatePostsData,
-  setNavigatorIsAside,
-  setNavigatorInTransition
-} from "../state/store";
+// import { connect } from "react-redux";
+// import {
+//   updatePostsData,
+//   setNavigatorIsAside,
+//   setNavigatorInTransition
+// } from "../state/store";
 
 // import StarRatingComponent from 'react-star-rating-component'
 import Link from 'gatsby-link';
@@ -57,24 +57,24 @@ class IndexPage extends Component {
   }
 }
 
-const mapStateToProps = (state, ownProps) => {
-  return {
-    navigatorIsAside: state.navigator.isAside,
-    navigatorIsActive: state.posts.length
-  };
-};
+// const mapStateToProps = (state, ownProps) => {
+//   return {
+//     navigatorIsAside: state.navigator.isAside,
+//     navigatorIsActive: state.posts.length
+//   };
+// };
 
-const mapDispatchToProps = dispatch => {
-  return {
-    updatePostsData: data => dispatch(updatePostsData(data)),
-    setNavigatorIsAside: val => dispatch(setNavigatorIsAside(val)),
-    setNavigatorInTransition: val => dispatch(setNavigatorInTransition(val))
-  };
-};
+// const mapDispatchToProps = dispatch => {
+//   return {
+//     updatePostsData: data => dispatch(updatePostsData(data)),
+//     setNavigatorIsAside: val => dispatch(setNavigatorIsAside(val)),
+//     setNavigatorInTransition: val => dispatch(setNavigatorInTransition(val))
+//   };
+// };
 
-export default connect(mapStateToProps, mapDispatchToProps)(IndexPage);
+// export default connect(mapStateToProps, mapDispatchToProps)(IndexPage);
 
-// export default IndexPage;
+export default IndexPage;
 
 export const pageQuery = graphql`
   query getAllLocationsEvents {
