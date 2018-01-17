@@ -27,6 +27,19 @@ const Container = styled.div`
   align-content: center;
 `;
 
+const Title = styled.h2`
+  color: #df3c3c;
+  border-bottom: #df3c3c 5px solid;
+  font-size: 37px;
+  font-weight: bold;
+  letter-spacing: -1px;
+
+  @media (${media.tablet}) {
+    margin-bottom: 0.5em;
+    font-size: 28px;
+  }
+`;
+
 const Row = styled.div`
   display: flex;
   width: 100%;
@@ -45,7 +58,8 @@ class ServicesSection extends Component {
     // const locations = this.props.data.products.edges
     return (
       <Wrapper>
-        <Container>
+        
+        <Container>          
         {services.map(({ node }, i) => (            
             <IntroductionItem key={i}
                 picture={node.productImage.handle}
