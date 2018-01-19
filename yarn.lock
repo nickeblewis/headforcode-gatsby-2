@@ -3926,6 +3926,14 @@ fs-extra@^4.0.1:
     jsonfile "^4.0.0"
     universalify "^0.1.0"
 
+fs-extra@^4.0.2:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-4.0.3.tgz#0d852122e5bc5beb453fb028e9c0c9bf36340c94"
+  dependencies:
+    graceful-fs "^4.1.2"
+    jsonfile "^4.0.0"
+    universalify "^0.1.0"
+
 fs-readdir-recursive@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs-readdir-recursive/-/fs-readdir-recursive-1.0.0.tgz#8cd1745c8b4f8a29c8caec392476921ba195f560"
@@ -3993,6 +4001,13 @@ gatsby-cli@^1.1.11:
     yargs "^8.0.2"
     yurnalist "^0.2.1"
 
+gatsby-image@^1.0.24:
+  version "1.0.33"
+  resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-1.0.33.tgz#eadc5eebc4f0f2d98b1dc762eb35dec0c6197e0b"
+  dependencies:
+    babel-runtime "^6.26.0"
+    prop-types "^15.6.0"
+
 gatsby-link@^1.6.17:
   version "1.6.23"
   resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-1.6.23.tgz#c6a00eca7a80f5c7e614dced625bfa28fc4f8fd6"
@@ -4044,9 +4059,9 @@ gatsby-plugin-react-next@^1.0.4:
     react "^16.0.0"
     react-dom "^16.0.0"
 
-gatsby-plugin-sharp@^1.6.13:
-  version "1.6.13"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-1.6.13.tgz#2c1243f31efdc1fa8b75574a505aef5343a890af"
+gatsby-plugin-sharp@^1.6.21, gatsby-plugin-sharp@^1.6.25:
+  version "1.6.25"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-1.6.25.tgz#c6c67276ac4ed7ca9ac2b15dcdcd199f12e4208d"
   dependencies:
     async "^2.1.2"
     babel-runtime "^6.26.0"
@@ -4100,13 +4115,13 @@ gatsby-remark-autolink-headers@^1.4.7:
     mdast-util-to-string "^1.0.2"
     unist-util-visit "^1.1.1"
 
-gatsby-remark-images@^1.5.24:
-  version "1.5.24"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-1.5.24.tgz#21f0d1c65b36ea8f3231f37b4cbaa134c38096dd"
+gatsby-remark-images@^1.5.32:
+  version "1.5.37"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-1.5.37.tgz#8a8b872bac4bdac0af828b8e4e3ba4eccf5443eb"
   dependencies:
     babel-runtime "^6.26.0"
     cheerio "^1.0.0-rc.2"
-    gatsby-plugin-sharp "^1.6.13"
+    gatsby-plugin-sharp "^1.6.25"
     is-relative-url "^2.0.0"
     lodash "^4.17.4"
     slash "^1.0.0"
@@ -4165,6 +4180,15 @@ gatsby-transformer-remark@^1.7.15:
     unified "^6.1.5"
     unist-util-select "^1.5.0"
     unist-util-visit "^1.1.1"
+
+gatsby-transformer-sharp@^1.6.16:
+  version "1.6.16"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-1.6.16.tgz#16464dcfbb2099f49805b2e244da0b3fea63b88e"
+  dependencies:
+    babel-runtime "^6.26.0"
+    bluebird "^3.5.0"
+    fs-extra "^4.0.2"
+    image-size "^0.6.0"
 
 gatsby@^1.9.82:
   version "1.9.82"
@@ -5006,6 +5030,10 @@ ignore@^3.3.3:
 image-size@^0.5.1:
   version "0.5.5"
   resolved "https://registry.yarnpkg.com/image-size/-/image-size-0.5.5.tgz#09dfd4ab9d20e29eb1c3e80b8990378df9e3cb9c"
+
+image-size@^0.6.0:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/image-size/-/image-size-0.6.2.tgz#8ee316d4298b028b965091b673d5f1537adee5b4"
 
 imagemin-pngquant@^5.0.0:
   version "5.0.1"
