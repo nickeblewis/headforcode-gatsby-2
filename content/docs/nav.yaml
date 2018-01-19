@@ -2,29 +2,3 @@
   items:
     - id: docs/new-gatsby-sites
       title: How we start a new Gatsby website
-    - id: docs/jamstack
-      title: What is the JAMStack and how we use it
-- title: Backends
-  items:
-    - id: docs/graphcool
-      title: Graphcool
-    - id: docs/prismic
-      title: Prismic
-    - id: docs/contentful
-      title: Contentful
-    - id: docs/graphcms
-      title: GraphCMS
-- title: E-Commerce
-  items:
-    - id: docs/stripe
-      title: Stripe
-    - id: docs/snipcart
-      title: Snipcart
-- title: Social Tools
-  items:
-    - id: docs/social-automation
-      title: How we automate our social media messages ahead of time
-- title: Workflow Tools
-  items:
-    - id: docs/flow
-      title: How we use Flow
