@@ -37,7 +37,7 @@ export const meta = [
   },
   {
     property: 'og:image',
-    content: 'https://bottender.js.org/fb-og.png',
+    content: 'https://www.headforcode.com/h4c.png',
   },
   {
     property: 'og:description',
