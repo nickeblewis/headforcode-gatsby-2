@@ -236,6 +236,7 @@ export const query = graphql`
       }
       fields {
         path
+        slug
       }
     }
     site {
