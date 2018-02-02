@@ -36,8 +36,6 @@ git add . --all
 git commit
 ```
 
-([Source](http://makandracards.com/makandra/527-squash-several-git-commits-into-a-single-commit))
-
 ## The hard(er) and less flexible way
 
 This method only allows you to squash the last X consecutive commits into a single commit. Also, if you have merged master into your branch along the way, you will have to manually merge your new (squashed) commit into master and resolve the merge conflicts.
@@ -70,8 +68,3 @@ git push origin name-of-branch
 ```
 
 In other words, just a normal push like any other
-
----
-
-Main source: http://stackoverflow.com/a/5201642/348995  
-Source for info about when commits where already pushed: http://stackoverflow.com/a/5668050/348995 
