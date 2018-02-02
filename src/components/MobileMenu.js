@@ -129,7 +129,7 @@ class MobileMenu extends Component {
               pathname={pathname}
             /> */}
           </NavItemWrapper>
-          {/* <Sidebar {...this.props} toggleMenu={this.toggleMenu} /> */}
+          <Sidebar {...this.props} toggleMenu={this.toggleMenu} />
         </Menu>
       </Container>
     );
