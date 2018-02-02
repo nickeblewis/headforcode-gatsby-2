@@ -1,0 +1,10 @@
+- title: Gatsby
+  items:
+    - id: docs/new-gatsby-sites
+      title: How we start a new Gatsby website
+- title: Git
+  items:
+    - id: ref/git/squashing-commits
+      title: Squashing Git Commits
+    - id: ref/git/how-to-stash-create-new-branch-and-pop
+      title: How to move changes from master to a new branch
