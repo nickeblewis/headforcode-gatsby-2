@@ -1,0 +1,2 @@
+webpackJsonp([0x74e1573e9a2a],{475:function(e,a){e.exports={data:{markdownRemark:{html:"",frontmatter:{title:"Machine Learning",date:"December 05, 2017",author:["nickeblewis"]},fields:{path:"blog/2018-01-04-machine-learning.md",slug:"/blog/2018/01/04/machine-learning/"}},site:{siteMetadata:{title:"HeadForCode"}}},pathContext:{slug:"/blog/2018/01/04/machine-learning/",layout:"sidebar-layout",_PARENT:"SOURCE"}}}});
+//# sourceMappingURL=path---blog-2018-01-04-machine-learning-b3796beb6bc950cbaea7.js.map
