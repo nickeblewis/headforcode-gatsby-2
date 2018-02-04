@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>https://headforcode.com/offline-plugin-app-shell-fallback/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://headforcode.com/blog/2017/12/05/journal</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://headforcode.com/blog/2018/01/04/machine-learning</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://headforcode.com/blog/2017/12/05/letsdothis</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://headforcode.com/blog/2017/12/05/journal</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://headforcode.com/blog/2017/12/21/gatsby-stripe</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://headforcode.com/blog/2018/01/04/machine-learning</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://headforcode.com/blog/2018/01/22/colour-selection</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://headforcode.com/ref</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://headforcode.com/docs/APIReference-Context</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://headforcode.com/docs/APIReference-Event</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://headforcode.com/docs/GettingStarted</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://headforcode.com/docs/APIReference-Event</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://headforcode.com/docs/Guides-Commands</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://headforcode.com/docs/Guides-ErrorHandling</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://headforcode.com/docs/Guides-Deployment</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://headforcode.com/docs/Guides-ErrorHandling</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://headforcode.com/docs/Guides-Intents</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://headforcode.com/docs/Guides-Middleware</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://headforcode.com/docs/Guides-Session</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -19,15 +20,14 @@
 <url> <loc>https://headforcode.com/docs/Guides-Testing</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://headforcode.com/docs/Platforms-LINE</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://headforcode.com/docs/Platforms-Messenger</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://headforcode.com/docs/Platforms-Telegram</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://headforcode.com/docs/Platforms-Slack</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://headforcode.com/docs/Platforms-Telegram</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://headforcode.com/docs/new-gatsby-sites</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://headforcode.com/ref</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://headforcode.com/exploring</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://headforcode.com/exploring/visual-studio-mac</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://headforcode.com/exploring/what-is-grav</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://headforcode.com/ref/git/how-to-stash-create-new-branch-and-pop</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://headforcode.com/exploring/what-is-grav</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://headforcode.com/ref/git/squashing-commits</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://headforcode.com/exploring/visual-studio-mac</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://headforcode.com/client/bentley-copse/reports</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://headforcode.com/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://headforcode.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
