@@ -7,4 +7,4 @@ public
 package-lock.json
 .idea/
 yarn-error.log
-
+coverage/
