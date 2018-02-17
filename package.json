@@ -17,7 +17,10 @@
     "lint:staged": "lint-staged",
     "precommit": "npm run lint:css && lint-staged",
     "reset": "rimraf ./.cache",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "prettify": "prettier --write '{./,__{tests,mocks}__}/**/*.+(js|jsx)'"
   },
   "dependencies": {
     "gatsby": "^1.9.82",
@@ -52,7 +55,27 @@
     "styled-normalize": "^2.2.1",
     "typography": "^0.16.6",
     "typography-theme-kirkham": "^0.16.3",
-      "parse-passwd": "latest"
+    "parse-passwd": "latest"
+  },
+  "jest": {
+    "transform": {
+      ".(js|jsx)": "babel-jest"
+    },
+    "testRegex": "(\\.(test|spec))\\.(jsx|js)$",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/.cache/"
+    ],
+    "moduleFileExtensions": [
+      "jsx",
+      "js"
+    ],
+    "collectCoverage": true,
+    "coverageReporters": [
+      "lcov",
+      "text",
+      "html"
+    ]
   },
   "devDependencies": {
     "eslint": "^4.8.0",
@@ -69,7 +92,12 @@
     "stylelint": "^8.2.0",
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-config-yoctol": "^0.7.0",
-    "stylelint-processor-styled-components": "^1.0.0"
+    "stylelint-processor-styled-components": "^1.0.0",
+    "enzyme": "^3.1.0",
+    "enzyme-adapter-react-16": "^1.0.2",
+    "enzyme-to-json": "^3.1.4",
+    "eslint-loader": "^1.9.0",
+    "jest": "^21.2.1"
   },
   "lint-staged": {
     "*.js": "eslint --fix"
