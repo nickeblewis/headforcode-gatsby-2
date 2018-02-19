@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/headforcode-gatsby-2",
+  pathPrefix: `'/headforcode-gatsby-2'`,
   siteMetadata: {
     title: 'HeadForCode',
     siteUrl: 'https://headforcode.com',
