@@ -45,7 +45,7 @@ export default ({ children, data, location }) => {
       >
         <html lang="en" dir="ltr" />
       </Helmet>
-      <Header title={data.site.siteMetadata.title} pathname={pathname} />
+      {/* <Header title={data.site.siteMetadata.title} pathname={pathname} /> */}
       <Container id="content" role="main">
         {children()}
       </Container>
