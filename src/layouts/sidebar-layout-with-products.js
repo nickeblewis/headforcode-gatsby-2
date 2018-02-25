@@ -39,7 +39,8 @@ export default class DocLayout extends Component {
     const { children, data, location } = this.props;
     baseStyles();
     const { pathname } = location;
-    const title = `${data.site.siteMetadata.title} | Nick Lewis - freelance web developer`;
+    // const title = `${data.site.siteMetadata.title} | Nick Lewis - freelance web developer`;
+    const title = ` | Nick Lewis - freelance web developer`;
     const products = this.props.data.stripeProducts.edges;
     return (
       <Wrapper>
