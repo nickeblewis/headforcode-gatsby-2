@@ -37,7 +37,8 @@ export default class DocLayout extends Component {
     const { children, data, location } = this.props;
     baseStyles();
     const { pathname } = location;
-    const title = `${data.site.siteMetadata.title} | Make Bots in Your Way, Fast and Flexibly`;
+    // const title = `${data.site.siteMetadata.title} | Make Bots in Your Way, Fast and Flexibly`;
+    const title = `| Make Bots in Your Way, Fast and Flexibly`;
     return (
       <Wrapper>
         <Helmet

@@ -23,6 +23,7 @@ const Container = styled.main`
 
 export default ({ children, data, location }) => {
   baseStyles();
+  console.log(data);
   const title = `${data.site.siteMetadata.title} | HeadForCode | We Teach. We Consult. We Solve.`;
   const { pathname } = location;
 
