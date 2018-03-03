@@ -148,7 +148,7 @@ render() {
     const { children, data, location } = this.props;
     baseStyles();
     const { pathname } = location;
-    const title = `${data.site.siteMetadata.title} | Nick Lewis - freelance web developer`;
+    const title = `| Nick Lewis - freelance web developer`;
     const products = this.props.data.stripeProducts.edges;
     return (
       <Wrapper>
@@ -165,7 +165,7 @@ render() {
         >
           <html lang="en" dir="ltr" />
         </Helmet>
-        <Header title={data.site.siteMetadata.title} pathname={pathname} />
+        {/*<Header title={data.site.siteMetadata.title} pathname={pathname} />*/}
         {children()}
         <StripeProductList products={products} />
         <Footer />

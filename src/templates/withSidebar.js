@@ -190,7 +190,7 @@ export default ({ data, location }) => {
 
   return (
     <Main id="content">
-      <Helmet title={`${title} | ${data.site.siteMetadata.title}`} />
+      {/*<Helmet title={`${title} | ${data.site.siteMetadata.title}`} />*/}
       <Container>
         <Left role="main">
           <TitleSection>
