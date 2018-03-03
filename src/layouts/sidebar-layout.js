@@ -54,7 +54,7 @@ export default class DocLayout extends Component {
         >
           <html lang="en" dir="ltr" />
         </Helmet>
-        <Header title={data.site.siteMetadata.title} pathname={pathname} />
+        {/*<Header title={data.site.siteMetadata.title} pathname={pathname} />*/}
         {children()}
         <Footer />
       </Wrapper>
